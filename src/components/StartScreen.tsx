@@ -1,8 +1,9 @@
 interface StartScreenProps {
   onStart: () => void;
+  onStartCardDeck: () => void;
 }
 
-export function StartScreen({ onStart }: StartScreenProps) {
+export function StartScreen({ onStart, onStartCardDeck }: StartScreenProps) {
   return (
     <div className="flex flex-col items-center justify-center min-h-full p-6 bg-[#F5E6D3]">
       <div className="text-center max-w-sm">
@@ -21,9 +22,16 @@ export function StartScreen({ onStart }: StartScreenProps) {
 
         <button
           onClick={onStart}
-          className="w-full bg-accent text-white font-bold py-4 px-8 rounded-xl text-lg active:bg-accent-light transition-all shadow-md hover:shadow-lg"
+          className="w-full bg-accent text-white font-bold py-4 px-8 rounded-xl text-lg active:bg-accent-light transition-all shadow-md hover:shadow-lg mb-3"
         >
-          ☕ Brew Your Game
+          ☕ Brew Your Bingo
+        </button>
+
+        <button
+          onClick={onStartCardDeck}
+          className="w-full bg-[#8B6F47] text-white font-bold py-4 px-8 rounded-xl text-lg active:bg-[#6B5537] transition-all shadow-md hover:shadow-lg"
+        >
+          🃏 Card Deck Shuffle
         </button>
       </div>
     </div>
