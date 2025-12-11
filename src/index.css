@@ -1,11 +1,14 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-accent: #2563eb;
-  --color-accent-light: #3b82f6;
-  --color-marked: #dcfce7;
-  --color-marked-border: #22c55e;
-  --color-bingo: #fbbf24;
+  --color-accent: #8B6F47;
+  --color-accent-light: #A0826D;
+  --color-marked: #FFF4E6;
+  --color-marked-border: #D4A574;
+  --color-bingo: #C17E3B;
+  --color-coffee-dark: #5C4A3A;
+  --color-cream: #F5E6D3;
+  --color-latte: #E8D5C4;
 }
 
 html,

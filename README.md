@@ -1,6 +1,6 @@
-# Soc Ops
+# Cozzy CoffeShop
 
-Social Bingo game for in-person mixers. Find people who match the questions and get 5 in a row!
+A warm and inviting coffee shop themed bingo game for cozy gatherings. Find people who match the coffee-inspired questions and get 5 in a row!
 
 ## Prerequisites
 
