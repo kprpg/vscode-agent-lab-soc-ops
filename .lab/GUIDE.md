@@ -265,3 +265,14 @@ p.s. to stay up to date:
 1. [VS Code on YouTube](https://www.youtube.com/code)
 2. [VS Code Copilot Docs](https://code.visualstudio.com/docs/copilot/overview)
 3. [Awesome Copilot](https://github.com/github/awesome-copilot) for more customizations
+
+## Quick Welcome Tour
+
+- **Open the app**: visit http://localhost:5173 in the Simple Browser (dev server running).
+- **Play**: Start the bingo game from the Start screen and try marking squares.
+- **Run tests**: `npm run test` — all unit tests pass.
+- **Explore prompts**: see [.github/prompts/setup.prompt.md](.github/prompts/setup.prompt.md).
+- **Ask the agent**: open Chat and try `/prompt` or Plan mode to generate tasks.
+
+Enjoy!
+
